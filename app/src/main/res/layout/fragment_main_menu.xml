@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainMenuFragment">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="194dp"
+            android:layout_height="185dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rabitnoback"
+            android:foreground="@drawable/rabitnoback"
+            android:src="@drawable/buttoncircle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="388dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/condiment"
+            android:text="Breed Classifier"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="318dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/buttoncircle"
+            android:fontFamily="@font/bungee"
+            android:text="Breed Classifier Using Camera"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="318dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/buttoncircle"
+            android:fontFamily="@font/bungee"
+            android:text="Identify Rabit Information"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="318dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/buttoncircle"
+            android:fontFamily="@font/bungee"
+            android:text="Breeding Calendar"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="318dp"
+            android:layout_height="88dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="45dp"
+            android:background="@drawable/buttoncircle"
+            android:fontFamily="@font/bungee"
+            android:text="ABOUT MORE"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

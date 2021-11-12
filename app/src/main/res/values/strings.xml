@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">breedapp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- this will be the start of the contents of the Home fragment -->
+    <string name="Title">Design of a Breed Classifier for a Smart Rabbitry using Deep Learning</string>
+    <string name="Description">A mobile application that can classify the breeding of the rabbit and give a percentage of what breed the rabbit is using a deep learning model.</string>
+    <string name="Objective">Specific Objectives:</string>
+    <string name="Objective1">- To design an application that will accurately detect the correct breed of a rabbit.</string>
+    <string name="Objective2">- To design an application that will notify the user about a rabbits breeding status.</string>
+    <string name="Objective3">- To design an application that stores information about each rabbit that can be accessed by scanning the QR code and would provide important analytics to the user.</string>
+    <string name="Objective4">- To test and evaluate the accuracy and reliability of the application.</string>
+    <!-- this will be the end of the contents of the Home fragment -->
+
+    <!-- this will be the start of the contents of the Moreinfo fragment -->
+    <string name="moreinfotitle">More Info About Our Project</string>
+    <string name="Problem">Problem of the  Current Situation</string>
+    <string name="ProblemBody1">The client experiences difficulty in identifying the breed  of individual rabbits in the rabbitry. This includes  difficulties in storing information about individual rabbits</string>
+    <string name="ProblemBody2">The client experiences difficulty in identifying family  members of a rabbit due to the manual recording system  he is currently using with his notebook.</string>
+
+    <string name="InfoBody">An application that can classify a rabbits breed to help new and old rabbit breeders to decide which breed is suitable for their farm. In this project, rabbit’s features such as color, size, shape and weight can be a factor in determining the breed of the rabbit. The features will serve as an input which will be processed by the deep learning model. The output will be a percentage of what breeds the rabbit. The deep learning model will be trained using the validated datasets that the team gathered.</string>
+    <string name="Currentsit">Current Situation</string>
+    <string name="Records">Records of rabbit information are  manually written in a notebook</string>
+    <string name="Records1">The	notebook	contains	the	following	information  about the rabbit: Is the rabbit ready for breeding?  Is the rabbit ready to be sold? Is the rabbit good for consumption?  Is the rabbit good to be sold as a pet?</string>
+    <string name="situation1">Code Number</string>
+
+    <string name="ProposedTitle">Proposed Solution</string>
+    <string name="Proposed1">MOBILE APP FUNCTIONS</string>
+    <string name="Proposed2">- Detects the breed of each rabbit.</string>
+    <string name="Proposed3">- Notify the user if the rabbit can breed after 4-6 months  since being born.</string>
+    <string name="Proposed4">- Notify the user after breeding. A rabbit can breed again  around 29-30 days from the last breeding.</string>
+    <string name="Proposed5">- Assign a QR code to each rabbit to store information.</string>
+
+
+    <string name="objective">Objective</string>
+    <string name="objective1">- To design an application  that will accurately  detect the correct breed  of a rabbit.</string>
+    <string name="objective3">- To design an application  that stores information  about each rabbit that can  be accessed by scanning  the QR code and would  provide important analytics  to the user.</string>
+
+    <!-- this will be the end of the contents of the Moreinfo fragment -->
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.breedapp.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.breedapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_moreinfoFragment"
+            app:destination="@id/moreinfoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_membersFragment"
+            app:destination="@id/membersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moreinfoFragment"
+        android:name="com.example.breedapp.MoreinfoFragment"
+        android:label="MoreinfoFragment" />
+    <fragment
+        android:id="@+id/membersFragment"
+        android:name="com.example.breedapp.MembersFragment"
+        android:label="MembersFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.breedapp.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.breedapp.MainMenuFragment"
+        android:label="MainMenuFragment" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_cameraClassifierFragment2"
+            app:destination="@id/cameraClassifierFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/cameraClassifierFragment2"
+        android:name="com.example.breedapp.CameraClassifierFragment"
+        android:label="CameraClassifierFragment" />
+</navigation>
