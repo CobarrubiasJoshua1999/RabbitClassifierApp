@@ -1,14 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
     tools:context=".RegisterPageFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="#FFFF">
 
-</FrameLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="344dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/condiment"
+            android:text="Breed Classifier"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="194dp"
+            android:layout_height="185dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="108dp"
+            android:background="@drawable/rabitnoback"
+            android:foreground="@drawable/rabitnoback"
+            android:src="@drawable/buttoncircle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="323dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="52dp"
+            android:drawableStart="@drawable/ic_baseline_email24"
+            android:drawableLeft="@drawable/ic_baseline_email24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="UserName"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="323dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="48dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+        <Button
+            android:id="@+id/btnRegisterBtn"
+            android:layout_width="360dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttoncircle"
+            android:text="REGISTER"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:backgroundTint="#FF9800"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="360dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/buttoncircle"
+            android:text="Go back"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:backgroundTint="#FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnRegisterBtn" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="20dp"
+            android:text="Please Input UserName"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="44dp"
+            android:layout_marginTop="19dp"
+            android:text="Please Input Password"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

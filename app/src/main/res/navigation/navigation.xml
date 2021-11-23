@@ -54,4 +54,9 @@
         android:id="@+id/cameraClassifierFragment2"
         android:name="com.example.breedapp.CameraClassifierFragment"
         android:label="CameraClassifierFragment" />
+    <fragment
+        android:id="@+id/registerPageFragment"
+        android:name="com.example.breedapp.RegisterPageFragment"
+        android:label="fragment_register_page"
+        tools:layout="@layout/fragment_register_page" />
 </navigation>
